@@ -1,0 +1,186 @@
+.footer{
+    position: relative;
+    &__wrapper {
+        height:249.72px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: linear-gradient(144deg, #FE5958, #EE9418);
+    }
+    &__pointer-image {
+        position: absolute;
+        width: 121.11px;
+        height: 222.003px;
+        left: 52.64px;
+    }
+    &__container {
+        @extend %container;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__try-section {
+        padding:0;
+        margin:0;
+        color:white;
+        font-size: 28.45px;
+        width: 279px;
+        line-height: 39px;
+    }
+    &__subscribe {
+        position: relative;
+        input[type='email'] {
+            outline-style: none;
+            height: 42.68px;
+            width: 384.18px;
+            border-radius: 39px;
+            color:white;
+            border-color: white;
+            border: none;
+            padding-left: 31px;
+            padding-right: 118px;
+            background-color: transparent;
+            border:2px solid white;
+        }
+        ::placeholder
+        {
+            color: white;
+            font-size: 9.96px;
+        }
+        .btn--subscribe {
+            color: #FE5858;
+            background-color: white;
+            padding: 11.85px 24.11px;
+            outline-style: none;
+            border: none;
+            border-radius: 23px;
+            position: absolute;
+            left: 272px;
+            top: 2px;
+        }
+        
+    }
+    &__refer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+       
+    }
+    &__refer-text {
+        margin:13.78px 0;
+        padding:0;
+        font-size: 12.80px;
+    }
+    @media screen and (min-width:$desktop-min)and(max-width:$desktop-max) {
+
+    }
+   
+    @media screen and (max-width:$ipad-max) {
+        &__pointer-image {
+            display: none;
+        }
+        &__try-section {
+            padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 3vw;
+            width: 30vw;
+            line-height: 39px;
+        }
+    }
+
+    @media screen and (min-width:$custom-small-mobile-max)and(max-width:$ipad-min){
+        &__try-section {
+            padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 3vw;
+            width: 30vw;
+            line-height: 5vw;
+        }
+        
+        
+        &__subscribe input[type=email] {
+        
+            height: 4.3vh;
+            width: 197.18px;
+            padding-left: 31px;
+            padding-right: 118px;
+        }
+        
+        &__subscribe .btn--subscribe {
+        
+        
+            padding: 7.85px 12.11px;
+            border-radius: 23px;
+            left: 133px;
+            top: 2px;
+            font-size: 8px;
+        }
+        
+        &__refer-text {
+            margin: 13.78px 0;
+            padding: 0;
+            font-size: 8.8px;
+        }
+    }
+   
+    @media screen and (max-width:$custom-small-mobile-max) {
+                
+        &__wrapper {
+            height: 249.72px;
+    
+        }
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__try-section {
+            padding: 0;
+            margin: 0;
+            font-size: 5vw;
+            width: 43vw;
+            line-height: 19px;
+        }
+
+        &__subscribe {
+            position: relative;
+            margin-top: 5vh;
+        }
+
+        &__subscribe input[type=email] {
+
+            height: 42.68px;
+            width: 73vw;
+            border: none;
+            padding-left: 13px;
+            padding-right: 83px;
+            background-color: transparent;
+            border: 2px solid white;
+        }
+
+        &__subscribe .btn--subscribe {
+            padding: 1.9vh 5vw;
+            border-radius: 23px;
+            left: 44vw;
+            top: 2px;
+        }
+
+
+        &__refer {
+            text-align: center;
+        }
+
+        &__refer-text {
+            margin: 13.78px 0;
+            padding: 0;
+            font-size: 12.8px;
+        }
+            }
+
+}
