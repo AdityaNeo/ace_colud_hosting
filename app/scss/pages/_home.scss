@@ -23,6 +23,7 @@
       
     }
     &__left-side {
+        z-index:1;
         padding-top: 32.015px;
     }
     &__definition {
@@ -60,6 +61,122 @@
 
         }
     }
+
+    
+
+ @media screen and (min-width:$desktop-min)and(max-width:$desktop-max) {
+}
+
+@media screen and (max-width:$ipad-max) {
+    
+&__left-side {
+
+    z-index: 1;
+    padding-left: 2vw;
+
+}
+&__definition {
+
+    font-size: 2vw;
+
+}
+&__definition {
+  font-size: 2vw;
+}
+&__head {
+ font-size: 2vw;
+}
+&__subtitle {
+font-size: 2vw;
+}
+
+&__banner-image {
+
+    padding-left: 7.03px;
+    padding-right: 8.03px;
+    padding-bottom: 5.5px;
+    padding-top: 12.5px;
+    img {
+         
+    height: auto;
+    width: 227.52px;
+    }
+}
+}
+@media screen and (min-width:$custom-small-mobile-max)and(max-width:$ipad-min){
+    &__wrapper {
+
+        z-index: 1;
+        align-items: center;
+       justify-content: center;
+    
+    }
+    
+    
+    &__left-side  {
+    
+    
+        margin-bottom: 9vh;
+        padding-left: 0;
+    
+    }
+    
+    &__definition {
+    font-size:3vw;
+    }
+    
+    &__title {
+    
+    font-size:4vw;
+    }
+    
+    &__head {
+    font-size:11vw;
+    }
+    
+    &__subtitle {
+    
+    font-size:3vw;
+    }
+    
+    &__banner-image img {
+        height: auto;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:$custom-small-mobile-max) {
+    &__left-side {
+
+        z-index: 1;
+    margin-bottom: 9vh;
+
+}
+
+&__title {
+      font-size: 3vw;
+}
+&__head {
+     font-size: 10vw;
+}
+&__subtitle {
+    font-size: 2vw;
+    margin-bottom: 3vh;
+}
+
+&__plan-offerlink {
+     padding: 2vh 5vw;
+    font-size: 3vw;
+}
+&__banner-image {
+
+    z-index: 1;
+
+}
+
+}
+
 }
 
 
@@ -153,7 +270,7 @@
 
 
 
-.services {
+ .services{
     &__heading-wrapper {
         display: flex;
         justify-content: center;
@@ -354,6 +471,424 @@
         padding:11.49px 37.89px;
         background-color: white;
         border-radius: 82.52px;
+    }
+
+    @media screen and (min-width:$desktop-min)and(max-width:$desktop-max) {
+    }
+   
+    @media screen and (max-width:$ipad-max) {
+               
+&__heading-wrapper {
+    margin-bottom: 15vh;
+}
+
+&__heading-separator {
+    width: 20vw;
+    margin-bottom: 1vh;
+}
+
+&__heading {
+    font-size: 5vw;
+    margin-bottom: 3vh;
+}
+
+&__sub-heading {
+    font-size: 2vw;
+}
+
+&__container {
+    min-height: 0;
+    margin-bottom: 14vh;
+}
+
+
+&__quick-books {
+ 
+    /* width: 283.16px; */
+
+}
+
+&__book-image {
+    width: 33vw;
+    height: 21vh;
+    margin-bottom: 4vh;
+}
+
+&__quick-book-title {
+
+    font-size: 3vw;
+}
+
+&__quick-book-detail {
+    font-size: 1.8vw;
+    margin-bottom: 17vw;
+    width: 251.15px;
+    margin-top: 4vw;
+}
+&__quick-book-detail {
+    font-size: 1.8vw;
+    margin-bottom: 9vw;
+    width: 32.8vw;
+    margin-top: 4vw;
+}
+
+&__book-now-link {
+    margin-bottom: 4vh;
+}
+
+&__arrow-image {
+    margin-bottom: 2vh;
+    height: 7vh;
+}
+
+&__compare-plans {
+    margin-left: 6.5vw;
+}
+
+&__compare-plans-heading {
+    font-size: 2.4vw;
+    margin: 0 0 2vh 0;
+}
+
+&__compare-plans-separator {
+    width: 24vw;
+    margin-bottom: 2vw;
+}
+
+&__plans-description {
+    font-size: 1vw;
+    width: 28vw;
+    color: #8989A2;
+    margin-bottom:6vh;
+}
+
+&__compare-plans-link {
+    margin-bottom: 14vh;
+}
+
+&__upload-image {
+    width: 27vw;
+    height: 20vh;
+    top: 17vh;
+    right: 0;
+}
+
+&__add-ons {
+    font-size: 1vw;
+    font-weight: 700;
+    margin-left: 5vw;
+}
+
+
+
+
+
+&__solution-container {
+    
+    margin-bottom: 0;
+    padding-inline:15px;
+}
+
+&__rigth-part {
+    width: 6vw;
+}
+
+&__middle-part {
+    flex-grow: 1;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+&__question {
+    width: 47vw;
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+
+&__solution-separator {
+    width: 19vw;
+    margin-bottom: 3vh;
+}
+
+&__call-us {
+    font-size: 2.5vw;
+    margin-bottom: 1.6vh;
+}
+
+&__call-back {
+    width: 30vw;
+}
+
+&__call-back-link {
+    font-size: 1.7vw;
+    border-radius: 82.52px;
+}
+    }
+    @media screen and (min-width:$custom-small-mobile-max)and(max-width:$ipad-min){
+        
+&__heading-wrapper {
+    margin-bottom: 9vh;
+}
+
+&__heading-separator {
+width: 25vw;
+margin-bottom: 1vh;
+}
+
+&__heading {
+font-size: 5vw;
+margin-bottom: 3vh;
+}
+
+&__sub-heading {
+font-size: 2vw;
+}
+
+&__container {
+
+margin-bottom: 6vh;
+}
+
+
+&__quick-books {
+
+/* width: 283.16px; */
+
+}
+
+&__book-image {
+ width: 28vw;
+height: 11vh;
+margin-bottom: 2vh;
+}
+
+&__quick-book-title {
+
+font-size: 3vw;
+}
+
+&__quick-book-detail {
+font-size: 1.8vw;
+margin-bottom: 13vw;
+width: 24.8vw;
+margin-top: 3vw;
+}
+
+
+&__book-now-link {
+margin-bottom: 3vh;
+font-size: 7.23px;
+padding: 0.065px 8.76px;
+}
+
+&__arrow-image {
+margin-bottom: 2vh;
+height: 5vh;
+}
+
+&__compare-plans {
+margin-left: 6.5vw;
+}
+
+&__compare-plans-heading {
+font-size: 2.4vw;
+margin: 0 0 2vh 0;
+}
+
+&__compare-plans-separator {
+width: 24vw;
+margin-bottom: 2vw;
+}
+
+&__plans-description {
+font-size: 1vw;
+width: 28vw;
+margin-bottom:4vh;
+}
+
+&__compare-plans-link {
+    padding: 3.065px 5.05px;
+    font-size: 5.23px;
+    margin-bottom: 5.6vh;
+}
+
+&__upload-image {
+width: 22vw;
+height: 9vh;
+top: 12vh;
+right: 0;
+}
+
+&__add-ons {
+font-size: 1vw;
+font-weight: 700;
+margin-left: 5vw;
+}
+
+
+
+
+
+&__solution-container {
+
+margin-bottom: 0;
+padding-inline:15px;
+}
+
+&__rigth-part {
+width: 6vw;
+}
+
+&__middle-part {
+flex-grow: 1;
+margin-left: 5vw;
+margin-top: 2vh;
+}
+
+&__question {
+width: 47vw;
+font-size: 3vw;
+margin-bottom: 1vh;
+}
+
+&__solution-separator {
+width: 19vw;
+margin-bottom: 2vh;
+}
+
+&__call-us {
+font-size: 2.5vw;
+margin-bottom: 1.6vh;
+}
+
+&__call-back {
+width: 30vw;
+}
+
+&__call-back-link {
+font-size: 1.7vw;
+border-radius: 82.52px;
+padding: 4.49px 9.89px;
+}
+    }
+   
+    @media screen and (max-width:$custom-small-mobile-max) {
+        &__heading-separator {
+            width: 20vw;
+            margin-bottom: 1vh;
+        }
+        
+        &__heading-wrapper {
+            margin-bottom: 15vh;
+        }
+        &__heading-separator {
+            width: 20vw;
+            margin-bottom: 1vh;
+        }
+        
+        &__heading {
+            font-size: 5vw;
+            margin-bottom: 3vh;
+        }
+        &__sub-heading {
+            font-size: 2vw;
+        }
+        
+        &__container {
+        flex-direction:column;
+        }
+        
+        &__quick-books {
+            margin-right: 0;
+            width:auto;
+        }
+        
+        
+        
+        &__book-image {
+            width: 85vw;
+            height: 26vh;
+            margin-bottom: 4vh;
+        }
+        
+        &__quick-book-title {
+            font-size: 6vw;
+        }
+        
+        &__quick-book-detail {
+            font-size: 2.8vw;
+            margin-bottom: 9vw;
+            width: 55.8vw;
+            margin-top: 4vw;
+        }
+        
+        &__book-now-link {
+            margin-bottom: 4vh;
+        }
+        
+        &__wrapper {
+            width: auto;
+            margin-top: 8vh;
+        }
+        &__arrow-image {
+            margin-bottom: 2vh;
+            height: 7vh;
+        }
+        
+        &__compare-plans {
+            margin-left: 6.5vw;
+        }
+        
+        &__plans-description {
+            font-size: 1vw;
+            width: 28vw;
+            color: #8989A2;
+            margin-bottom: 6vh;
+        }
+        
+        &__compare-plans-link {
+        
+            padding: 1vh 2vw;
+            font-size: 3vw;
+            margin-bottom: 5vh;
+        }
+        
+        
+        &__upload-image {
+            width: 46vw;
+            top: 13vh;
+            top: 6vh;
+            right: 0;
+        }
+        
+        &__add-ons {
+        
+            font-size: 1.7vw;
+            text-align: center;
+            margin-bottom: 7vh;
+        
+        }
+        
+        
+        &__middle-part {
+            flex-grow: 1;
+            margin-left: 5vw;
+            margin-top: 2vh;
+        }
+        
+        
+        &__question {
+            margin-bottom: 1vh;
+        }
+        
+        &__solution-separator {
+            
+            margin-bottom: 2vh;
+        }
+        
+        &__call-back-link {
+          padding:1vh 2vw;
+        }
     }
 }
 
