@@ -437,10 +437,6 @@ body {
   .main-banner__subtitle {
     font-size: 3vw;
   }
-  .main-banner__banner-image img {
-    height: auto;
-    width: auto;
-  }
 }
 @media screen and (max-width: 359px) {
   .main-banner__left-side {
