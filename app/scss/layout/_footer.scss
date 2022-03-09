@@ -25,6 +25,7 @@
         font-size: 28.45px;
         color:$clr-white;
         line-height: 39px;
+        z-index: 111;
         padding:0;
         margin:0;
     }
@@ -79,9 +80,9 @@
     }
    
     @media screen and (max-width:$ipad-max) {
-        &__pointer-image {
-            display: none;
-        }
+        // &__pointer-image {
+        //     display: none;
+        // }
         &__try-section {
             width: 30vw;
             color: $clr-white;

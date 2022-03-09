@@ -1177,17 +1177,36 @@
     // &__heade-wrapper {
         
     // }
-    @media screen and (max-width:$custom-small-mobile-max) {
+    @media screen and (max-width:$ipad-max) {
         .swiper-button-prev {
             img {
-                width:25vw;
-                height:100%;
+                // width:25vw;
+                // height:100%;
+                display: none;
             }
         }
         .swiper-button-next {
             img{
-                width:25vw;
-                height:100%;
+                // width:25vw;
+                // height:100%;
+                display: none;
+            }
+        
+        }
+    }
+    @media screen and (max-width:$custom-small-mobile-max) {
+        .swiper-button-prev {
+            img {
+                // width:25vw;
+                // height:100%;
+                display: none;
+            }
+        }
+        .swiper-button-next {
+            img{
+                // width:25vw;
+                // height:100%;
+                display: none;
             }
         
         }

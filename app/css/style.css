@@ -189,6 +189,7 @@ body {
   font-size: 28.45px;
   color: white;
   line-height: 39px;
+  z-index: 111;
   padding: 0;
   margin: 0;
 }
@@ -236,9 +237,6 @@ body {
   padding: 0;
 }
 @media screen and (max-width: 991px) {
-  .footer__pointer-image {
-    display: none;
-  }
   .footer__try-section {
     width: 30vw;
     color: white;
@@ -1307,13 +1305,19 @@ body {
   margin-left: 21.7px;
   margin-bottom: 37.33px;
 }
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 991px) {
   .testimonials .swiper-button-prev img {
-    width: 25vw;
-    height: 100%;
+    display: none;
   }
   .testimonials .swiper-button-next img {
-    width: 25vw;
-    height: 100%;
+    display: none;
+  }
+}
+@media screen and (max-width: 359px) {
+  .testimonials .swiper-button-prev img {
+    display: none;
+  }
+  .testimonials .swiper-button-next img {
+    display: none;
   }
 }
