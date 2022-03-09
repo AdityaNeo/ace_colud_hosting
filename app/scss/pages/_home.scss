@@ -103,7 +103,7 @@
     
         &__left-side  {
             padding-left: 0;
-            margin-bottom: 9vh;
+            margin-bottom: 4vh;
         }
         &__definition {
             font-size:3vw;
@@ -121,7 +121,9 @@
             font-size:3vw;
         }
     
-        &__banner-image img {
+        &__banner-image {
+            padding: 14.5px 23.03px;
+            margin-bottom: 5vh;
         // height: auto;
         // width: auto;
         }
@@ -150,6 +152,7 @@
         }
         &__banner-image {
             z-index: 1;
+            padding: 1.5px 9.03px;
         }
 
     }

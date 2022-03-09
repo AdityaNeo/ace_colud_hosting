@@ -418,7 +418,7 @@ body {
   }
   .main-banner__left-side {
     padding-left: 0;
-    margin-bottom: 9vh;
+    margin-bottom: 4vh;
   }
   .main-banner__definition {
     font-size: 3vw;
@@ -431,6 +431,10 @@ body {
   }
   .main-banner__subtitle {
     font-size: 3vw;
+  }
+  .main-banner__banner-image {
+    padding: 14.5px 23.03px;
+    margin-bottom: 5vh;
   }
 }
 @media screen and (max-width: 359px) {
@@ -454,6 +458,7 @@ body {
   }
   .main-banner__banner-image {
     z-index: 1;
+    padding: 1.5px 9.03px;
   }
 }
 
