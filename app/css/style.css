@@ -31,17 +31,17 @@ body {
   background-color: black;
 }
 .header__top-links {
-  font-size: 14.22px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  font-size: 14.22px;
+  color: white;
   padding-top: 11.845px;
   padding-bottom: 11.845px;
-  color: white;
 }
 .header__check-now {
   text-decoration: none;
-  color: #EE9617;
+  color: #ee9617;
 }
 .header__call-us {
   display: inline-block;
@@ -58,10 +58,10 @@ body {
   background-color: #595959;
 }
 .header__nav-links-wrapper {
-  font-size: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  font-size: 2rem;
   text-decoration: none;
   padding-top: 28.46px;
   padding-bottom: 28.46px;
@@ -96,7 +96,7 @@ body {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #fbfbfb;
+  background-color: white;
 }
 @media screen and (max-width: 991px) {
   .header__hamburger {
@@ -157,8 +157,8 @@ body {
   }
   .header__top-links-right a {
     display: block;
-    margin: 1vh 0;
     text-align: center;
+    margin: 1vh 0;
   }
 }
 
@@ -168,9 +168,9 @@ body {
 .footer__wrapper {
   height: 249.72px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   background-image: linear-gradient(144deg, #FE5958, #EE9418);
 }
 .footer__pointer-image {
@@ -185,77 +185,77 @@ body {
   align-items: center;
 }
 .footer__try-section {
+  width: 279px;
+  font-size: 28.45px;
+  color: white;
+  line-height: 39px;
   padding: 0;
   margin: 0;
-  color: white;
-  font-size: 28.45px;
-  width: 279px;
-  line-height: 39px;
 }
 .footer__subscribe {
   position: relative;
 }
 .footer__subscribe input[type=email] {
-  outline-style: none;
   height: 42.68px;
   width: 384.18px;
+  outline-style: none;
   border-radius: 39px;
-  color: white;
   border-color: white;
+  color: white;
   border: none;
+  border: 2px solid white;
+  background-color: transparent;
   padding-left: 31px;
   padding-right: 118px;
-  background-color: transparent;
-  border: 2px solid white;
 }
 .footer__subscribe ::placeholder {
   color: white;
   font-size: 9.96px;
 }
 .footer__subscribe .btn--subscribe {
+  position: absolute;
+  top: 2px;
+  left: 272px;
   color: #FE5858;
-  background-color: white;
-  padding: 11.85px 24.11px;
-  outline-style: none;
   border: none;
   border-radius: 23px;
-  position: absolute;
-  left: 272px;
-  top: 2px;
+  background-color: white;
+  outline-style: none;
+  padding: 11.85px 24.11px;
 }
 .footer__refer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
   color: white;
+  background-color: black;
 }
 .footer__refer-text {
+  font-size: 12.8px;
   margin: 13.78px 0;
   padding: 0;
-  font-size: 12.8px;
 }
 @media screen and (max-width: 991px) {
   .footer__pointer-image {
     display: none;
   }
   .footer__try-section {
-    padding: 0;
-    margin: 0;
+    width: 30vw;
     color: white;
     font-size: 3vw;
-    width: 30vw;
     line-height: 39px;
+    margin: 0;
+    padding: 0;
   }
 }
 @media screen and (min-width: 359px) and (max-width: 768px) {
   .footer__try-section {
+    width: 30vw;
+    font-size: 3vw;
+    color: white;
+    line-height: 5vw;
     padding: 0;
     margin: 0;
-    color: white;
-    font-size: 3vw;
-    width: 30vw;
-    line-height: 5vw;
   }
   .footer__subscribe input[type=email] {
     height: 4.3vh;
@@ -264,16 +264,16 @@ body {
     padding-right: 118px;
   }
   .footer__subscribe .btn--subscribe {
-    padding: 12.85px 12.11px;
-    border-radius: 23px;
     left: 133px;
     top: 2px;
     font-size: 8px;
+    border-radius: 23px;
+    padding: 12.85px 12.11px;
   }
   .footer__refer-text {
-    margin: 13.78px 0;
-    padding: 0;
     font-size: 8.8px;
+    padding: 0;
+    margin: 13.78px 0;
   }
 }
 @media screen and (max-width: 359px) {
@@ -285,11 +285,11 @@ body {
     flex-direction: column;
   }
   .footer__try-section {
+    width: 43vw;
+    font-size: 5vw;
+    line-height: 19px;
     padding: 0;
     margin: 0;
-    font-size: 5vw;
-    width: 43vw;
-    line-height: 19px;
   }
   .footer__subscribe {
     position: relative;
@@ -299,16 +299,16 @@ body {
     height: 42.68px;
     width: 73vw;
     border: none;
-    padding-left: 13px;
-    padding-right: 83px;
-    background-color: transparent;
     border: 2px solid white;
+    background-color: transparent;
+    padding-right: 83px;
+    padding-left: 13px;
   }
   .footer__subscribe .btn--subscribe {
-    padding: 1.3vh 4vw;
-    border-radius: 23px;
     left: 44vw;
     top: 2px;
+    padding: 1.3vh 4vw;
+    border-radius: 23px;
   }
   .footer__refer {
     text-align: center;
@@ -328,19 +328,19 @@ body {
 }
 
 .main-banner {
-  background-color: #595959;
-  margin: 0 0 47.67px 0;
-  min-height: calc(100vh - 144.6px);
   display: flex;
   align-items: center;
+  min-height: calc(100vh - 144.6px);
   color: white;
+  background-color: #595959;
+  margin: 0 0 47.67px 0;
 }
 .main-banner__blue-dot-wrapper {
   position: absolute;
 }
 .main-banner__blue-spot {
-  border: none;
   width: 81.81px;
+  border: none;
   border-top: 7px dotted #4e5f67;
   margin-bottom: 20px;
 }
@@ -370,16 +370,16 @@ body {
 .main-banner__plan-offerlink {
   display: inline-block;
   text-decoration: none;
-  font-size: 14.23px;
-  padding: 11.49px 25.775px 11.49px 25.775px;
-  background-color: white;
-  color: #D44800;
-  border-radius: 50px;
   font-weight: 600;
+  font-size: 14.23px;
+  border-radius: 50px;
+  color: #D44800;
+  background-color: white;
+  padding: 11.49px 25.775px 11.49px 25.775px;
 }
 .main-banner__banner-image {
-  background-color: #FFFFFF;
   border: 4.27px solid rgba(254, 88, 88, 0.25);
+  background-color: white;
   border-radius: 13px;
   padding: 36.5px 48.03px;
 }
@@ -405,10 +405,7 @@ body {
     font-size: 2vw;
   }
   .main-banner__banner-image {
-    padding-left: 7.03px;
-    padding-right: 8.03px;
-    padding-bottom: 5.5px;
-    padding-top: 12.5px;
+    padding-top: 12.5px 8.03px 5.5px 7.03px;
   }
   .main-banner__banner-image img {
     height: auto;
@@ -417,13 +414,13 @@ body {
 }
 @media screen and (min-width: 359px) and (max-width: 768px) {
   .main-banner__wrapper {
-    z-index: 1;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    z-index: 1;
   }
   .main-banner__left-side {
-    margin-bottom: 9vh;
     padding-left: 0;
+    margin-bottom: 9vh;
   }
   .main-banner__definition {
     font-size: 3vw;
@@ -454,8 +451,8 @@ body {
     margin-bottom: 3vh;
   }
   .main-banner__plan-offerlink {
-    padding: 2vh 5vw;
     font-size: 3vw;
+    padding: 2vh 5vw;
   }
   .main-banner__banner-image {
     z-index: 1;
@@ -560,7 +557,7 @@ body {
 }
 .services__sub-heading {
   font-size: 18.5px;
-  color: #8989A2;
+  color: #8989a2;
 }
 .services__container {
   display: flex;
@@ -593,7 +590,7 @@ body {
 }
 .services__quick-book-detail {
   font-size: 15.66px;
-  color: #8989A2;
+  color: #8989a2;
   margin-bottom: 105.09px;
   width: 251.15px;
   margin-top: 39.55px;
@@ -630,7 +627,7 @@ body {
 .services__plans-description {
   font-size: 15.66px;
   width: 406.25px;
-  color: #8989A2;
+  color: #8989a2;
   margin-bottom: 59.26px;
 }
 .services__compare-plans-link {
@@ -638,18 +635,18 @@ body {
   text-decoration: none;
   font-size: 14.23px;
   font-weight: 700;
-  background-image: linear-gradient(107deg, #fe5858, #ee9617);
   color: white;
-  padding: 10.065px 33.05px;
   border-radius: 135.18px;
+  background-image: linear-gradient(107deg, #fe5858, #ee9617);
+  padding: 10.065px 33.05px;
   margin-bottom: 182.27px;
 }
 .services__upload-image {
-  width: 314.99px;
-  height: 283.93px;
   position: absolute;
   top: 193.51px;
   right: 0;
+  width: 314.99px;
+  height: 283.93px;
 }
 .services__add-ons {
   font-size: 11.39px;
@@ -670,7 +667,7 @@ body {
 }
 .services__rigth-part {
   width: 45.53px;
-  background-color: #EE9617;
+  background-color: #ee9617;
 }
 .services__middle-part {
   flex-grow: 1;
@@ -694,26 +691,26 @@ body {
   margin-bottom: 32.665px;
 }
 .services__call-us {
-  color: #8989A2;
+  color: #8989a2;
   font-size: 22.05px;
   margin-bottom: 15.92px;
 }
 .services__call-back {
+  width: 345.05px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 345.05px;
   background-image: linear-gradient(124deg, #FD5956, #EF931A);
 }
 .services__call-back-link {
   display: inline-block;
   text-decoration: none;
-  color: #D44800;
   font-size: 14.22px;
   font-weight: 800;
-  padding: 11.49px 37.89px;
-  background-color: white;
   border-radius: 82.52px;
+  color: #D44800;
+  background-color: white;
+  padding: 11.49px 37.89px;
 }
 @media screen and (max-width: 991px) {
   .services__heading-wrapper {
@@ -778,7 +775,7 @@ body {
   .services__plans-description {
     font-size: 1vw;
     width: 28vw;
-    color: #8989A2;
+    color: #8989a2;
     margin-bottom: 6vh;
   }
   .services__compare-plans-link {
@@ -889,8 +886,8 @@ body {
     margin-bottom: 4vh;
   }
   .services__compare-plans-link {
-    padding: 3.065px 5.05px;
     font-size: 5.23px;
+    padding: 3.065px 5.05px;
     margin-bottom: 5.6vh;
   }
   .services__upload-image {
@@ -995,7 +992,7 @@ body {
   .services__plans-description {
     font-size: 1vw;
     width: 28vw;
-    color: #8989A2;
+    color: #8989a2;
     margin-bottom: 6vh;
   }
   .services__compare-plans-link {
@@ -1090,7 +1087,7 @@ body {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background-color: orange;
+  background-color: #ee9617;
   margin-right: 22.76px;
 }
 .cloud-hosting__title {
@@ -1106,7 +1103,7 @@ body {
   margin-left: 3.55px;
 }
 .cloud-hosting__subtitle {
-  color: #8989A2;
+  color: #8989a2;
   font-size: 15.65px;
   width: 406.24px;
   line-height: 28.9px;
@@ -1221,7 +1218,7 @@ body {
     margin-left: 1vw;
   }
   .cloud-hosting__subtitle {
-    color: #8989A2;
+    color: #8989a2;
     font-size: 1.2vw;
     width: 44vw;
     line-height: 7.9px;
@@ -1291,8 +1288,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 33.8px 30.05px;
   background-image: linear-gradient(144deg, #FE5958, #EE9418);
+  padding: 33.8px 30.05px;
 }
 .testimonials__card-img img {
   height: 142.291px;
@@ -1309,4 +1306,14 @@ body {
   margin-right: 21.7px;
   margin-left: 21.7px;
   margin-bottom: 37.33px;
+}
+@media screen and (max-width: 359px) {
+  .testimonials .swiper-button-prev img {
+    width: 25vw;
+    height: 100%;
+  }
+  .testimonials .swiper-button-next img {
+    width: 25vw;
+    height: 100%;
+  }
 }

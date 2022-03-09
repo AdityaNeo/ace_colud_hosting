@@ -8,43 +8,19 @@ const bottomlink=document.querySelector(".header__nav-links-wrapper");
 
 const all_anchor=document.querySelectorAll(".header__nav-links > a");
 
-
-// const all_anchor=document.querySelectorAll("ul>li a");
-
    hamburger.addEventListener("click",()=> { 
 
    hamburger.classList.toggle("active");
    topnav.classList.toggle("active");
    bottomnav.classList.toggle("active");
-   // header_wrap.classList.toggle("header__wrapper-remove-margin");
-
-//   for(let ele of toplink.children)
-//   {
-//     ele.classList.add("nav-item");
-//   }
-
-
-//   for(let ele of bottomlink.children)
-//   {
-//     ele.classList.add("nav-item");
-//   }
-
 
   for(let margin of all_anchor)
   {
      margin.classList.add("remove-margin");
 
-  }
-//   for(let border of all_anchor)
-//   {
-//      border.classList.add("remove-border");
-     
-//   }
-  
+  } 
 
 })
-
-
 
 
 document.querySelectorAll("ul>li a").forEach(anchor_child=>anchor_child.addEventListener("click",
