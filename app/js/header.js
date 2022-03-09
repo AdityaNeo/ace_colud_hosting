@@ -23,7 +23,7 @@ const all_anchor=document.querySelectorAll(".header__nav-links > a");
 })
 
 
-document.querySelectorAll("ul>li a").forEach(anchor_child=>anchor_child.addEventListener("click",
+document.querySelectorAll(".header__top-links-right > a,.header__nav-links > a").forEach(anchor_child=>anchor_child.addEventListener("click",
 ()=>{
    
    hamburger.classList.remove("active");

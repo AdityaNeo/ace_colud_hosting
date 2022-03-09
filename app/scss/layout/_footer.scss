@@ -107,16 +107,16 @@
         &__subscribe input[type=email] {
             height: 4.3vh;
             width: 197.18px;
-            padding-left: 31px;
-            padding-right: 118px;
+            padding-left: 15px;
+            padding-right: 8px;
         }
         
         &__subscribe .btn--subscribe {
-            left: 133px;
-            top: 2px;
-            font-size: 8px;
+            left: 39px;
+            top: 44.9px;
+            font-size: 14px;
             border-radius: 23px;
-            padding: 12.85px 12.11px;
+            padding: 9.85px 25.11px;
         }
         
         &__refer-text {
@@ -152,20 +152,30 @@
 
         &__subscribe input[type=email] {
 
-            height: 42.68px;
-            width: 73vw;
-            border: none;
-            border: 2px solid $clr-white;
-            background-color: transparent;
-            padding-right: 83px;
-            padding-left: 13px;
+            // height: 42.68px;
+            // width: 73vw;
+            // border: none;
+            // border: 2px solid $clr-white;
+            // background-color: transparent;
+            // padding-right: 83px;
+            // padding-left: 13px;
+            height: 4.3vh;
+            width: 197.18px;
+            padding-left: 15px;
+            padding-right: 8px;
+
         }
 
         &__subscribe .btn--subscribe {
-            left: 44vw;
-            top: 2px;
-            padding: 1.3vh 4vw;
+            // left: 44vw;
+            // top: 2px;
+            // padding: 1.3vh 4vw;
+            // border-radius: 23px;
+            left: 39px;
+            top: 44.9px;
+            font-size: 14px;
             border-radius: 23px;
+            padding: 9.85px 25.11px;
         }
 
 
